@@ -17,7 +17,9 @@
 
     </header>
 
-    <div class="video"></div>
+    <div class="space"></div>
+
+    <div class="video"><iframe width="95%" height="500" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     <div class="events"></div>
 
@@ -34,19 +36,19 @@
 
 <style>
 
-* {
+body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .flex-container {
+  width: 100%;
   height: 55vh;
   /* border: 10px solid mistyrose; */
   display: flex;
   flex-wrap: wrap;
   background-color: #ede8e8;
-  /* overflow: hidden; */
 }
 
 .flex-item {
@@ -67,7 +69,7 @@
   width: 300px;
   padding-left: 25px;
   background-image: url('../../src/assets/images/hero-image.png');
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
@@ -76,16 +78,18 @@
   background-color: #044696;
   color: white;
   height: 33vh;
+  display: flex;
   align-items: center;
-  justify-content: center;
   margin-right: 15%;
   padding: 10px;
+  text-align: center;
 }
 
 .hero-text-container {
   /* border: 5px solid palevioletred; */
   display: flex;
   align-items: center;
+  align-content: center;
   width: 300px;
   padding-right: 20px;
 }
@@ -99,6 +103,15 @@
   align-items: center;
   padding-left: 25px;
   background-color: #ede8e8;
+}
+
+.space {
+  height: 3vh;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 550px) {
