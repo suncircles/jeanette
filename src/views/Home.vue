@@ -11,7 +11,7 @@
 
      <div class="flex-item hero-text-container">
        <div class=" flex-item hero-text-box">
-         <h1>Help elect a community organizer and Dyett hunger striker!</h1>
+         <h2>Help elect a community organizer and Dyett hunger striker!</h2>
        </div>
       </div>
 
@@ -52,7 +52,7 @@ body, html {
   height: 55vh;
   /* border: 10px solid mistyrose; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   background-color: #ede8e8;
 }
 
@@ -133,10 +133,30 @@ body, html {
   .hero-text-box {
     margin: 0;
     padding: 0;
+    height: 20vh;
     border-radius: 0px;
   }
-  .image-container {
+  /* .image-container {
     flex-grow: 3;
+  } */
+  .space {
+    height: 9vh;
+  }
+  iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .hero-text-box {
+    margin-bottom: 35%;
+  }
+}
+
+@media only screen and (max-height: 575px) {
+  .hero-text-box {
+    margin-bottom: 65%;
   }
 }
 
