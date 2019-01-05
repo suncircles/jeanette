@@ -148,7 +148,8 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 360px) {
+
+@media only screen and (max-width: 360px) {
   .hero-text-box {
     margin-bottom: 50%;
   }
