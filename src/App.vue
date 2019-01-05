@@ -74,6 +74,7 @@ body {
 }
 .navbar {
     font-size: 18px;
+    padding-top: 10px
     /*padding-bottom: 10px;*/
 }
 .navcontainer {
@@ -116,7 +117,7 @@ body {
 
 .navbar-toggle {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 20px;
     cursor: pointer; 
     color: rgba(0,0,0,0.8);
