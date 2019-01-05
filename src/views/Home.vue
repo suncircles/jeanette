@@ -5,17 +5,25 @@
     
    <header class="flex-container">
 
-     <div class="flex-item hero-image">Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image Image</div>
+     <div class="flex-item image-container">
+       <div class="flex-item hero-image"></div>
+     </div>
 
-     <div class="flex-item hero-text-box"><h1>Help elect a community organizer and Dyett hunger striker!</h1></div>
+     <div class="flex-item hero-text-container">
+       <div class=" flex-item hero-text-box">
+         <h1>Help elect a community organizer and Dyett hunger striker!</h1>
+       </div>
+      </div>
 
-   </header>
+    </header>
 
     <div class="video"></div>
 
     <div class="events"></div>
 
     <div class="endorsements"></div>
+
+    
 
 
 
@@ -33,7 +41,7 @@
 }
 
 .flex-container {
-  height: 45vh;
+  height: 55vh;
   /* border: 10px solid mistyrose; */
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +50,13 @@
 }
 
 .flex-item {
-  flex-grow: 1;
+  flex: 1;
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image {
@@ -50,15 +64,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 300px;
   padding-left: 25px;
+  background-image: url('../../src/assets/images/hero-image.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .hero-text-box {
+  background-color: #044696;
+  color: white;
+  height: 33vh;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15%;
+  padding: 10px;
+}
+
+.hero-text-container {
   /* border: 5px solid palevioletred; */
   display: flex;
   align-items: center;
   width: 300px;
+  padding-right: 20px;
 }
 
 .social-media {
@@ -72,8 +101,22 @@
   background-color: #ede8e8;
 }
 
-.video {
-  width: 
+@media only screen and (max-width: 550px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .hero-text-container {
+    width: 100vw;
+    padding: 0;
+    margin:0;
+  }
+  .hero-text-box {
+    margin: 0;
+    padding: 0;
+  }
+  .image-container {
+    flex-grow: 3;
+  }
 }
 
 </style>
