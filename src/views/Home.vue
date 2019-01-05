@@ -139,26 +139,58 @@ body, html {
   /* .image-container {
     flex-grow: 3;
   } */
-  .space {
+  /* .space {
     height: 9vh;
-  }
+  } */
   iframe {
     width: 100%;
     max-height: 300px;
   }
 }
 
-@media only screen and (max-height: 700px) {
+
+@media only screen and (max-width: 360px) {
   .hero-text-box {
-    margin-bottom: 35%;
+    margin-bottom: 50%;
   }
 }
 
-@media only screen and (max-height: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 355px) and (max-height: 568px) {
   .hero-text-box {
-    margin-bottom: 65%;
+    margin-bottom: 75%;
   }
 }
+
+@media only screen and (width: 375px) {
+  .hero-text-box {
+    margin-bottom: 40%;
+  }
+}
+
+@media only screen and (width: 375px) and (min-height: 800px) {
+  .hero-text-box {
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (width: 414px) {
+  .hero-text-box {
+    margin-bottom: 20%;
+  }
+}
+
+@media only screen and (width: 411px) {
+  .hero-text-box {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (width: 411px) and (min-height: 730px) and (max-height: 820px) {
+  .hero-text-box {
+    margin-bottom: 20%;
+  }
+}
+
 
 </style>
 
