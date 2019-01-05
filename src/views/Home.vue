@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-
+    
     <div class="social-media">Social media icons</div>
     
    <header class="flex-container">
@@ -42,6 +42,11 @@ body, html {
     box-sizing: border-box;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-container {
   width: 100%;
   height: 55vh;
@@ -59,6 +64,7 @@ body, html {
 .image-container {
   display: flex;
   justify-content: center;
+  min-height: 400px;
 }
 
 .hero-image {
@@ -83,6 +89,7 @@ body, html {
   margin-right: 15%;
   padding: 10px;
   text-align: center;
+  border-radius: 50px;
 }
 
 .hero-text-container {
@@ -126,6 +133,7 @@ body, html {
   .hero-text-box {
     margin: 0;
     padding: 0;
+    border-radius: 0px;
   }
   .image-container {
     flex-grow: 3;
