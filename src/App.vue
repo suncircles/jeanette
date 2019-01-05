@@ -1,37 +1,42 @@
 <template>
 
   <div id="app">
-<!--     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/meet">Meet Jeanette</router-link> | 
-      <router-link to="/issues">Issues</router-link> | 
-      <router-link to="/getinvolved">Get Involved</router-link>
-    </div> -->
+    <div class="navcontainer">
+      <nav class="navbar">
+              <span class="navbar-toggle" id="js-navbar-toggle">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <font-awesome-icon icon="bars" />
 
-  <!-- <font-awesome-icon icon="bars" /> -->
+              </span>
+              <!-- <a href="#" class="logo">logo</a> -->
+              <img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px">
 
-    <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                  <!-- <i class="fas fa-bars"></i> -->
-                  <font-awesome-icon icon="bars" />
+              <ul class="main-nav" id="js-menu">
+                  <li>
+                      <router-link to="/" class="nav-links">Home</router-link>
+                  </li>
+                  <li>
+                      <router-link to="/meet" class="nav-links">Meet Jeanette</router-link>
+                  </li>
+                  <li>
+                      <router-link to="/issues" class="nav-links">Issues</router-link>
+                  </li>
+                  <li>
+                      <router-link to="/getinvolved" class="nav-links">Get Involved</router-link>
+                  </li>
+              </ul>
+      </nav>
+      <div class="socmedia">
+        <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
+          <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
+        </a>
+        <a href="https://twitter.com/J1Ramann" target="_blank">
+          <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
+        </a>
+        
 
-            </span>
-            <a href="#" class="logo">logo</a>
-            <ul class="main-nav" id="js-menu">
-                <li>
-                    <router-link to="/" class="nav-links">Home</router-link>
-                </li>
-                <li>
-                    <router-link to="/meet" class="nav-links">Meet Jeanette</router-link>
-                </li>
-                <li>
-                    <router-link to="/issues" class="nav-links">Issues</router-link>
-                </li>
-                <li>
-                    <router-link to="/getinvolved" class="nav-links">Get Involved</router-link>
-                </li>
-            </ul>
-    </nav>
+      </div>
+    </div>  
 
     <router-view/>
   </div>
@@ -69,11 +74,27 @@ body {
 }
 .navbar {
     font-size: 18px;
-    /*background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);*/
-    background-color: #ede8e8;
-    /*border: 1px solid rgba(0, 0, 0, 0.2);*/
-    padding-bottom: 10px;
+    padding-top: 10px
+    /*padding-bottom: 10px;*/
 }
+.navcontainer {
+    background-color: #ede8e8;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socmedia {
+    margin-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+
+}
+
+
+
 .main-nav {
     list-style-type: none;
 }
@@ -96,7 +117,7 @@ body {
 
 .navbar-toggle {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 20px;
     cursor: pointer; 
     color: rgba(0,0,0,0.8);

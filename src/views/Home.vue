@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     
-    <div class="social-media">Social media icons</div>
     
    <header class="flex-container">
 
