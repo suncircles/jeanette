@@ -36,6 +36,17 @@
     <div class="donate"></div>
 
     <div class="endorsements"></div>
+
+    <div class="icons">
+      <font-awesome-icon icon="graduation-cap" />
+      <font-awesome-icon icon="home" />
+      <font-awesome-icon icon="hand-holding-usd" />
+      <font-awesome-icon icon="city" />
+      <font-awesome-icon icon="users" />
+      <font-awesome-icon icon="balance-scale" />
+      <font-awesome-icon icon="globe-americas" />
+      
+    </div>
    
   </div>
 </template>
