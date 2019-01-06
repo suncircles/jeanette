@@ -49,8 +49,9 @@
   }
 
   .flex-item-1 {
-    height: 65vh;
+    height: 60vh;
     min-width: 280px;
+    min-height: 400px;
     background-image: url('../../src/assets/images/hero-image.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -90,7 +91,7 @@
   }
 
   iframe {
-    max-width: 85vw;
+    max-width: 90vw;
   }
 
   @media only screen and (max-width: 600px) {
@@ -104,6 +105,7 @@
   }
   .flex-item-1 {
     height: 50vh;
+    min-height: 200px;
   }
   .space {
     height: 0vh;
@@ -112,7 +114,6 @@
     max-width: 100vw;
     max-height: 40vh;
   }
-
 }
 
 
