@@ -14,7 +14,13 @@
 
      <div class="video"><iframe width="100%" height="500" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-    <div class="phone-bank"></div>
+    <div class="phone-bank">
+      <div class="phone-text">We canvas Saturdays from 9:30–3:30 p.m. and Sundays from 2–5 p.m.</div>
+
+      <div class="phone-button"><button>Door-knock or phonebank for Jeanette</button></div>
+
+      <div class="phone-text">For upcoming panels, parties, and other community events, visit our Facebook page.</div>
+    </div>
 
     <div class="donate"></div>
 
@@ -88,6 +94,12 @@
   .video {
     display: flex;
     justify-content: center;
+  }
+
+  .phone-bank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   iframe {
