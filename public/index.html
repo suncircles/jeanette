@@ -11,7 +11,51 @@
     <noscript>
       <strong>We're sorry but jeanette doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div class="content">
+      <div id="app"></div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
+
+  <footer class="footer">
+    <div class="footer-text">
+      BUILT AND PAID FOR BY: <br>
+      FRIENDS FOR JEANETTE B. TAYLOR <br> <br>
+      6636 South Cottage Grove Ave. <br>
+      P:  773.620.9055 <br>
+      E: jeanettebeatrice41@yahoo.com <br> <br>
+
+      A copy of our report filed with the State Board of Elections is (or will be) available on the Board’s official website (www.elections.il.gov) or for purchase from the State Board of Elections, Springfield, Illinois.
+    </div>
+  </footer>
 </html>
+
+<style>
+  html {
+    height: 100%
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  }
+
+  .content {
+    flex: 1 0 auto;
+  }
+
+  .footer {
+    flex-shrink: 0; 
+    background-color: #044696;
+    padding: 20px;
+  }
+
+  .footer-text {
+    margin-right: 35%;
+    color: white;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    
+  }
+
+</style>

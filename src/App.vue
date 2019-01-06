@@ -2,43 +2,41 @@
 
   <div id="app">
     <div class="navcontainer">
-      <nav class="navbar">
-              <span class="navbar-toggle" id="js-navbar-toggle">
-                    <!-- <i class="fas fa-bars"></i> -->
-                    <font-awesome-icon icon="bars" />
+        <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                      <!-- <i class="fas fa-bars"></i> -->
+                      <font-awesome-icon icon="bars" />
 
-              </span>
-              <!-- <a href="#" class="logo">logo</a> -->
-              <img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px">
+                </span>
+                <!-- <a href="#" class="logo">logo</a> -->
+                <img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px">
 
-              <ul class="main-nav" id="js-menu">
-                  <li>
-                      <router-link to="/" class="nav-links">Home</router-link>
-                  </li>
-                  <li>
-                      <router-link to="/meet" class="nav-links">Meet Jeanette</router-link>
-                  </li>
-                  <li>
-                      <router-link to="/issues" class="nav-links">Issues</router-link>
-                  </li>
-                  <li>
-                      <router-link to="/getinvolved" class="nav-links">Get Involved</router-link>
-                  </li>
-              </ul>
-      </nav>
-      <div class="socmedia">
-        <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
-          <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
-        </a>
-        <a href="https://twitter.com/J1Ramann" target="_blank">
-          <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
-        </a>
-        
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <router-link to="/" class="nav-links">Home</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/meet" class="nav-links">Meet Jeanette</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/issues" class="nav-links">Issues</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/getinvolved" class="nav-links">Get Involved</router-link>
+                    </li>
+                </ul>
+        </nav>
+        <div class="socmedia">
+          <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
+            <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
+          </a>
+          <a href="https://twitter.com/J1Ramann" target="_blank">
+            <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
+          </a>
+        </div>
+      </div>  
 
-      </div>
-    </div>  
-
-    <router-view/>
+      <router-view/>
   </div>
 </template>
 
@@ -90,7 +88,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 100px;
-
 }
 
 
@@ -165,7 +162,6 @@ body {
     }
   }
 
-
 /*end nav bar css*/
 
 </style>
@@ -173,8 +169,6 @@ body {
 
 
 <script>
-
-
 
 export default {
   data: function() {
