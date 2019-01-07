@@ -273,7 +273,7 @@
     padding: 5%;
   }
 
-  @media only screen and (max-width: 730px) {
+  @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box {
     max-width: 100vw;
     border-radius: 0px;
