@@ -201,11 +201,11 @@
 
   .flex-item-4 {
     height: 50vh;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 300px;
     background-image: url('../../src/assets/images/meet.png');
     background-size: cover;
-    flex-grow: 1;
+    flex-grow: 3;
   }
 
   .issues-text-box {
@@ -216,6 +216,7 @@
     display: flex;
     align-items: center;
     padding-left: 5%;
+    text-align: center;
   }
 
   /* ICONS */
@@ -289,6 +290,7 @@
   iframe {
     max-width: 100vw;
     max-height: 40vh;
+    padding: 0;
   }
 }
 
