@@ -17,7 +17,7 @@
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
           <div class="issues-text-box">
-            <h2>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</h2>
+            <p>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</p>
           </div>
          </div>
         <div class="flex-item flex-item-4"></div>
@@ -196,7 +196,7 @@
     align-items: center;
     justify-content: center;
     background-color: #044696;
-    flex-grow: 1;
+    flex-grow: 4;
   }
 
   .flex-item-4 {
@@ -217,6 +217,7 @@
     align-items: center;
     padding-left: 5%;
     text-align: center;
+    font-size: 2em;
   }
 
   /* ICONS */
@@ -281,6 +282,9 @@
     min-height: 0vh;
   }
   .hero-text-box h1 {
+    font-size: 1.5em;
+  }
+  .issues-text-box {
     font-size: 1.5em;
   }
   .flex-item-1 {
