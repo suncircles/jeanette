@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a>
+    <!-- <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a> -->
 
     <div class="flex-container">
       <div class="flex-item flex-item-1"></div>
@@ -287,6 +287,7 @@
 
   .bio-text-box {
     max-width: 550px;
+    max-height: 50vh;
     color: white;
     padding: 1%;
     text-align: left;
@@ -340,6 +341,9 @@
   }
   .issues-text-box {
     font-size: 1.5em;
+  }
+  .bio-text-box {
+    font-size: 1.9vh;
   }
   .flex-item-1 {
     height: 50vh;
