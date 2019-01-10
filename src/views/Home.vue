@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <!-- <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a> -->
+    <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a>
 
     <div class="flex-container">
       <div class="flex-item flex-item-1"></div>
@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <div id="bio" class="quote"><h2>Jeanette's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</h2></div>
+    <div id="bio" class="quote"><h2>Jeanette M. Taylor's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</h2></div>
 
     <div class="flex-container-3">
         <div class="flex-item-5">
@@ -269,6 +269,7 @@
 
   .flex-item-5 {
     height: 50vh;
+    min-width: 300px;
     background-image: url('../../src/assets/images/bio2.png');
     background-size: cover;
     background-position: center;
@@ -278,11 +279,14 @@
   .flex-item-6 {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #044696;
+    max-height: 50vh;
+    flex-grow: 1;
   }
 
   .bio-text-box {
-    max-width: 450px;
+    max-width: 550px;
     color: white;
     padding: 1%;
     text-align: left;
