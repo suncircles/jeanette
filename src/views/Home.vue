@@ -1,6 +1,8 @@
 <template>
   <div class="home">
 
+    <!-- <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a> -->
+
     <div class="flex-container">
       <div class="flex-item flex-item-1"></div>
       <div class="flex-item flex-item-2">
@@ -103,8 +105,23 @@
             <li>Expand public transit</li>
           </ul>
         </div>
-      
+    </div>
 
+    <div id="bio" class="quote"><h2>Jeanette's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</h2></div>
+
+    <div class="flex-container-3">
+        <div class="flex-item-5">
+         </div>
+        <div class="flex-item-6">
+          <div class="bio-text-box">
+            <ul>
+              <li>Led the 34-day hunger strike that forced Rahm Emanuel to keep Dyett High School open</li></br>
+              <li>Took on U of C administrators, standing with the youth organizers to win a new adult trauma center for the south side</li></br>
+              <li>Fighting to bring a Community Benefits Agreement Ordinance to stop displacement from the area around the Obama Center—so that working  families can find housing they can afford and get jobs in our community.</li>
+            </ul>
+            <p>Jeanette is the <strong>only</strong> candidate with a track record of taking on Rahm Emanuel and winning. As alderman, she will stand up to greedy developers and special interests and fight every day for the dignity and respect that we deserve.</p>
+          </div>
+        </div>
     </div>
 
     
@@ -181,7 +198,7 @@
 
   /* ISSUES */
 
-  .quote-1 {
+  .quote {
     text-align: center;
   }
 
@@ -232,7 +249,6 @@
   .icon {
     max-width: 25vw;
     min-width: 350px;
-    /* border: 10px solid mistyrose; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -241,6 +257,40 @@
 
   font-awesome-icon {
     width: 25vw !important;
+  }
+
+  /* BIO */
+
+  .flex-container-3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .flex-item-5 {
+    height: 50vh;
+    background-image: url('../../src/assets/images/bio2.jpeg');
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+  }
+
+  .flex-item-6 {
+    display: flex;
+    align-items: center;
+    background-color: #044696;
+  }
+
+  .bio-text-box {
+    max-width: 450px;
+    color: white;
+    padding: 1%;
+    text-align: left;
+    font-size: 1em;
+  }
+
+  .bio-text-box p {
+    padding: 1.5rem;
   }
 
   /* VIDEO */
@@ -276,7 +326,7 @@
   }
 
   @media only screen and (max-width: 690px) {
-  .hero-text-box, .issues-text-box {
+  .hero-text-box, .issues-text-box, .bio-text-box {
     max-width: 100vw;
     border-radius: 0px;
     min-height: 0vh;
