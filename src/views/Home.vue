@@ -12,7 +12,7 @@
       </div>
     </div>
 
-     <div class="video"><iframe width="100%" height="500" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+     <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
      <div class="quote-1"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
 
@@ -269,7 +269,7 @@
 
   .flex-item-5 {
     height: 50vh;
-    background-image: url('../../src/assets/images/bio2.jpeg');
+    background-image: url('../../src/assets/images/bio2.png');
     background-size: cover;
     background-position: center;
     flex-grow: 1;
@@ -290,7 +290,7 @@
   }
 
   .bio-text-box p {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   /* VIDEO */
