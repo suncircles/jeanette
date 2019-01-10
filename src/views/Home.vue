@@ -121,6 +121,28 @@
 
     <div class="endorsements"></div>
    
+    <carousel id="slideshow" :per-page="1">
+      <!-- https://github.com/ssense/vue-carousel -->
+      <slide class="landscape">
+        
+          <img src="../../src/assets/images/hero-image.png" alt="Italian Trulli" style='height: 100%; width: auto; object-fit: contain'>
+
+  
+      </slide>
+      <slide>
+        Slide 2
+      </slide>
+      <slide>
+        Slide 2
+      </slide>
+      <slide>
+        Slide 2
+      </slide>
+
+
+
+    </carousel>
+
   </div>
 </template>
 
@@ -296,6 +318,19 @@
     max-height: 40vh;
     padding: 0;
   }
+}
+
+
+#slideshow {
+  height: 800px;
+}
+
+.landscape {
+    max-height: 1000px;
+    width: 100%;
+}
+.carousel-1 {
+  /*position: absolute;*/
 }
 
 </style>
