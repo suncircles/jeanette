@@ -14,7 +14,7 @@
 
      <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-     <div class="quote-1"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
+     <div class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
 
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
@@ -124,17 +124,15 @@
         </div>
     </div>
 
-    
+    <div class="get-involved">
+      <div class="get-involved-text-1"><p>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</p></div>
 
-    <div class="phone-bank">
-      <div class="phone-text"><h2>We canvas Saturdays from 9:30–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
+      <div><button class="phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
 
-      <div class="phone-button"><button><h1>Door-knock or phonebank for Jeanette</h1></button></div>
+      <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="donate-button">Donate</button></a></div>
 
-      <div class="phone-text"><h2>For upcoming panels, parties, and other community events, visit our Facebook page.</h2></div>
+      <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
     </div>
-
-    <div class="donate"></div>
 
     <div class="endorsements"></div>
    
@@ -283,15 +281,16 @@
     background-color: #044696;
     max-height: 50vh;
     flex-grow: 1;
+    padding-right: 2%;
   }
 
   .bio-text-box {
-    max-width: 550px;
+    max-width: 650px;
     max-height: 50vh;
     color: white;
     padding: 1%;
     text-align: left;
-    font-size: 1em;
+    font-size: 2vh;
   }
 
   .bio-text-box p {
@@ -306,29 +305,45 @@
     background-color: hsl(0, 0%, 81%);
   }
 
-  .phone-bank {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .phone-button button {
-    height: 15vh;
-    width: 60vw;
-    background-color: #044696;
-    color: white;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-
-  .phone-button button:focus {
-    outline: 0;
-    }
-
   iframe {
     /* max-width: 90vw; */
     padding: 5%;
   }
+
+ /* GET INVOLVED */
+
+ .get-involved {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .get-involved-text-1, .get-involved-text-2 {
+   font-size: 2rem;
+   text-align: center;
+ }
+
+ .phone-button, .donate-button {
+   width: 100vw;
+   font-size: 3vh;
+   color: white;
+   border-radius: 50px;
+   cursor: pointer;
+ }
+
+ .donate-button {
+   height: 10vh;
+   background-color: #e90000;
+ }
+
+ .phone-button {
+   min-height: 10vh; 
+   background-color: #044696;
+ }
+
+ .phone-button:focus, .donate-button:focus {
+   outline: 0;
+ }
 
   @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box, .bio-text-box {
@@ -341,20 +356,29 @@
   }
   .issues-text-box {
     font-size: 1.5em;
+    text-align: center;
+    padding-right: 5%;
   }
   .bio-text-box {
     font-size: 1.9vh;
+  
   }
   .flex-item-1 {
     height: 50vh;
     min-height: 200px;
   }
+  /* .flex-item-6 {
+    padding-bottom: 5%;
+  } */
   iframe {
     max-width: 100vw;
     max-height: 40vh;
     padding: 0;
   }
 }
+
+/* Other media query for bio-text-box, maybe:
+padding-bottom: 5%; */
 
 </style>
 
