@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a>
+    <!-- <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a> -->
 
     <div class="flex-container">
       <div class="flex-item flex-item-1"></div>
@@ -14,7 +14,7 @@
 
      <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-     <div class="quote-1"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
+     <div class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
 
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
@@ -133,8 +133,6 @@
 
       <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
     </div>
-
-    <div class="donate"></div>
 
     <div class="endorsements"></div>
    
@@ -307,6 +305,11 @@
     background-color: hsl(0, 0%, 81%);
   }
 
+  iframe {
+    /* max-width: 90vw; */
+    padding: 5%;
+  }
+
  /* GET INVOLVED */
 
  .get-involved {
@@ -342,15 +345,6 @@
    outline: 0;
  }
 
-  /* .phone-button button:focus {
-    outline: 0;
-    } */
-
-  iframe {
-    /* max-width: 90vw; */
-    padding: 5%;
-  }
-
   @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box, .bio-text-box {
     max-width: 100vw;
@@ -362,10 +356,11 @@
   }
   .issues-text-box {
     font-size: 1.5em;
+    text-align: center;
+    padding-right: 5%;
   }
   .bio-text-box {
     font-size: 1.9vh;
-    /* padding-bottom: 5%; */
   
   }
   .flex-item-1 {
@@ -381,6 +376,9 @@
     padding: 0;
   }
 }
+
+/* Other media query for bio-text-box, maybe:
+padding-bottom: 5%; */
 
 </style>
 
