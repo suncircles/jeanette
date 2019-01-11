@@ -134,7 +134,14 @@
       <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
     </div>
 
-    <div class="endorsements"></div>
+    <div class="endorsement-text">Endorsed by:</div>
+    <div class="endorsements">
+      <div class="endorsement ctu"></div>
+      <div class="endorsement seiu"></div>
+      <div class="endorsement uwf"></div>
+      <div class="endorsement cfl"></div>
+      <div class="endorsement rc"></div>
+    </div>
    
   </div>
 </template>
@@ -344,6 +351,68 @@
  .phone-button:focus, .donate-button:focus {
    outline: 0;
  }
+
+ /* ENDORSEMENTS */
+
+ .endorsement-text {
+   background-color: #044696;
+   text-align: center;
+   font-size: 2vh;
+   color: white;
+ }
+
+ .endorsements {
+   display:flex;
+   background-color: #044696;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 2em;
+ }
+
+ .endorsement {
+    min-width: 5vw;
+    /* min-width: 350px; */
+    padding: 5%;
+ }
+
+  .ctu {
+    background-image: url('../../src/assets/images/ctu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .seiu {
+    background-image: url('../../src/assets/images/seiu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .uwf {
+    background-image: url('../../src/assets/images/uwf.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cfl {
+    background-image: url('../../src/assets/images/cfl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .rc {
+    background-image: url('../../src/assets/images/rc.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+
 
   @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box, .bio-text-box {
