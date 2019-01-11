@@ -1,8 +1,6 @@
 <template>
   <div class="home">
 
-    <!-- <a href="#bio" v-smooth-scroll="{ duration: 1000 }">Bio</a> -->
-
     <div class="flex-container">
       <div class="flex-item flex-item-1"></div>
       <div class="flex-item flex-item-2">
@@ -14,7 +12,7 @@
 
      <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-     <div class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
+     <div id="issues" class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
 
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
@@ -124,7 +122,7 @@
         </div>
     </div>
 
-    <div class="get-involved">
+    <div id="get-involved" class="get-involved">
       <div class="get-involved-text-1"><p>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</p></div>
 
       <div><button class="phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
@@ -291,13 +289,20 @@
     padding-right: 2%;
   }
 
+  .bio-text-box ul {
+    display: flex;
+    flex-direction: column;
+  }
+
   .bio-text-box {
-    max-width: 650px;
-    max-height: 50vh;
+    max-width: 600px;
+    max-height: 90vh;
     color: white;
     padding: 1%;
     text-align: left;
     font-size: 2vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .bio-text-box p {
@@ -429,16 +434,15 @@
     padding-right: 5%;
   }
   .bio-text-box {
-    font-size: 1.9vh;
-  
+    font-size: 2.3vh;
   }
   .flex-item-1 {
     height: 50vh;
     min-height: 200px;
   }
-  /* .flex-item-6 {
-    padding-bottom: 5%;
-  } */
+  .flex-item-6 {
+    max-height: 90vh;
+  }
   iframe {
     max-width: 100vw;
     max-height: 40vh;
