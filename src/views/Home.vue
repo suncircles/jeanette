@@ -134,7 +134,7 @@
       <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
     </div>
 
-    <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true" :navigationEnabled="true" :pagination-position="top">  
+    <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
       <!-- https://github.com/ssense/vue-carousel -->
       <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Italian Trulli">
