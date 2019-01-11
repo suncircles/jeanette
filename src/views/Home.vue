@@ -1,7 +1,7 @@
 <template>
   <div class="home">
 
-    <div class="flex-container">
+    <div id="home" class="flex-container">
       <div class="flex-item flex-item-1"></div>
       <div class="flex-item flex-item-2">
         <div class="hero-text-box">
@@ -210,6 +210,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #ede8e8;
+    padding-top: 150px;
   }
 
   .flex-item-1 {

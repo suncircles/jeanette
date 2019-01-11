@@ -12,17 +12,18 @@
                 <img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px">
 
                 <ul class="main-nav" id="js-menu">
+                    
                     <li>
-                        <router-link to="/" class="nav-links">Home</router-link>
+                        <a href="#home" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Home</a>
                     </li>
                     <li>
-                        <router-link to="/meet" class="nav-links">Meet Jeanette</router-link>
+                        <a href="#issues" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Issues</a>
                     </li>
                     <li>
-                        <router-link to="/issues" class="nav-links">Issues</router-link>
+                        <a href="#bio" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Meet Jeanette</a>
                     </li>
                     <li>
-                        <router-link to="/getinvolved" class="nav-links">Get Involved</router-link>
+                        <a href="#get-involved" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Get Involved</a>
                     </li>
                 </ul>
         </nav>
@@ -72,14 +73,16 @@ body {
 }
 .navbar {
     font-size: 18px;
-    padding-top: 10px
-    /*padding-bottom: 10px;*/
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
 }
 .navcontainer {
     background-color: #ede8e8;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    position: fixed;
 }
 
 .socmedia {
