@@ -17,13 +17,13 @@
                         <a href="#home" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Home</a>
                     </li>
                     <li>
-                        <a href="#issues" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Issues</a>
+                        <a href="#issues" v-smooth-scroll="{ duration: 1000, offset: -130 }" class="nav-links">Issues</a>
                     </li>
                     <li>
-                        <a href="#bio" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Meet Jeanette</a>
+                        <a href="#bio" v-smooth-scroll="{ duration: 1000, offset: -150 }" class="nav-links">Meet Jeanette</a>
                     </li>
                     <li>
-                        <a href="#get-involved" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Get Involved</a>
+                        <a href="#get-involved" v-smooth-scroll="{ duration: 1000, offset: -120 }" class="nav-links">Get Involved</a>
                     </li>
                 </ul>
         </nav>
