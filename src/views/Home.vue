@@ -5,7 +5,11 @@
       <div class="flex-item flex-item-1"></div>
       <div class="flex-item flex-item-2">
         <div class="hero-text-box">
-          <h1>Help elect a community organizer and Dyett hunger striker!</h1>
+          <div class="hero-text-1"><h1>Help elect a community organizer and Dyett hunger striker on February 26, 2019!</h1></div>
+          <div class="hero-text-vote">
+            <h3>Find your polling station and cast your vote for Jeanette Taylor:</h3>
+            <a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="vote-button">Vote</button></a>
+          </div>
         </div>
       </div>
     </div>
@@ -233,12 +237,37 @@
     color: white;
     border-radius: 25px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
-  .hero-text-box h1 {
+  .hero-text-1 {
     padding: 10px;
     text-align: center;
+  }
+
+  .hero-text-vote {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* background-color: ; */
+    border-radius: 0 0 25px 25px;
+  }
+
+  .hero-text-vote a {
+    padding-bottom: 5%;
+  }
+
+  .vote-button {
+    width: 20vw;
+    height: 5vh;
+    color: white;
+    background-color: #e90000;
+    border-radius: 25px;
+    border: none;
+    font-size: 4vh;
   }
 
   /* ISSUES */
@@ -469,6 +498,9 @@
   }
   .hero-text-box h1 {
     font-size: 1.5em;
+  }
+  .vote-button {
+    width: 50vw;
   }
   .issues-text-box {
     font-size: 1.5em;
