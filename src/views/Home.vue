@@ -10,9 +10,9 @@
       </div>
     </div>
 
-     <div class="video"><iframe width="100%" height="500" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+     <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-     <div class="quote-1"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
+     <div id="issues" class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
 
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
@@ -103,24 +103,37 @@
             <li>Expand public transit</li>
           </ul>
         </div>
-      
-
     </div>
 
-    
+    <div id="bio" class="quote"><h2>Jeanette M. Taylor's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</h2></div>
 
-    <div class="phone-bank">
-      <div class="phone-text"><h2>We canvas Saturdays from 9:30–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
-
-      <div class="phone-button"><button><h1>Door-knock or phonebank for Jeanette</h1></button></div>
-
-      <div class="phone-text"><h2>For upcoming panels, parties, and other community events, visit our Facebook page.</h2></div>
+    <div class="flex-container-3">
+        <div class="flex-item-5">
+         </div>
+        <div class="flex-item-6">
+          <div class="bio-text-box">
+            <br><br>
+            <ul>
+              <li>Led the 34-day hunger strike that forced Rahm Emanuel to keep Dyett High School open</li></br>
+              <li>Took on U of C administrators, standing with the youth organizers to win a new adult trauma center for the south side</li></br>
+              <li>Fighting to bring a Community Benefits Agreement Ordinance to stop displacement from the area around the Obama Center—so that working  families can find housing they can afford and get jobs in our community.</li>
+            </ul>
+            <p>Jeanette is the <strong>only</strong> candidate with a track record of taking on Rahm Emanuel and winning. As alderman, she will stand up to greedy developers and special interests and fight every day for the dignity and respect that we deserve.</p>
+            <br>
+          </div>
+        </div>
     </div>
 
-    <div class="donate"></div>
+    <div id="get-involved" class="get-involved">
+      <div class="get-involved-text-1"><p>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</p></div>
 
-    <div class="endorsements"></div>
-   
+      <div><button class="phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
+
+      <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="donate-button">Donate</button></a></div>
+
+      <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
+    </div>
+
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true" :navigationEnabled="true" :pagination-position="top">  
       <!-- https://github.com/ssense/vue-carousel -->
       <slide>
@@ -158,9 +171,17 @@
       <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Italian Trulli">
       </slide>
-
-
     </carousel>
+
+    <div class="endorsement-text"><br>Endorsed by:</div>
+    <div class="endorsements">
+      <div class="endorsement ctu"></div>
+      <div class="endorsement seiu"></div>
+      <div class="endorsement uwf"></div>
+      <div class="endorsement cfl"></div>
+      <div class="endorsement rc"></div>
+    </div>
+   
 
   </div>
 </template>
@@ -222,7 +243,7 @@
 
   /* ISSUES */
 
-  .quote-1 {
+  .quote {
     text-align: center;
   }
 
@@ -273,7 +294,6 @@
   .icon {
     max-width: 25vw;
     min-width: 350px;
-    /* border: 10px solid mistyrose; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -284,6 +304,53 @@
     width: 25vw !important;
   }
 
+  /* BIO */
+
+  .flex-container-3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .flex-item-5 {
+    height: 50vh;
+    min-width: 300px;
+    background-image: url('../../src/assets/images/bio2.png');
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+  }
+
+  .flex-item-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #044696;
+    max-height: 50vh;
+    flex-grow: 1;
+    padding-right: 2%;
+  }
+
+  .bio-text-box ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-text-box {
+    max-width: 600px;
+    max-height: 90vh;
+    color: white;
+    padding: 1%;
+    text-align: left;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-text-box p {
+    padding: 1rem;
+  }
+
   /* VIDEO */
 
   .video {
@@ -292,32 +359,110 @@
     background-color: hsl(0, 0%, 81%);
   }
 
-  .phone-bank {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .phone-button button {
-    height: 15vh;
-    width: 60vw;
-    background-color: #044696;
-    color: white;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-
-  .phone-button button:focus {
-    outline: 0;
-    }
-
   iframe {
     /* max-width: 90vw; */
     padding: 5%;
   }
 
+ /* GET INVOLVED */
+
+ .get-involved {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .get-involved-text-1, .get-involved-text-2 {
+   font-size: 2rem;
+   text-align: center;
+ }
+
+ .phone-button, .donate-button {
+   width: 100vw;
+   font-size: 3vh;
+   color: white;
+   border-radius: 50px;
+   cursor: pointer;
+ }
+
+ .donate-button {
+   height: 10vh;
+   background-color: #e90000;
+ }
+
+ .phone-button {
+   min-height: 10vh; 
+   background-color: #044696;
+ }
+
+ .phone-button:focus, .donate-button:focus {
+   outline: 0;
+ }
+
+ /* ENDORSEMENTS */
+
+ .endorsement-text {
+   background-color: #044696;
+   text-align: center;
+   font-size: 2vh;
+   color: white;
+ }
+
+ .endorsements {
+   display:flex;
+   background-color: #044696;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 2em;
+ }
+
+ .endorsement {
+    min-width: 5vw;
+    /* min-width: 350px; */
+    padding: 5%;
+ }
+
+  .ctu {
+    background-image: url('../../src/assets/images/ctu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .seiu {
+    background-image: url('../../src/assets/images/seiu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .uwf {
+    background-image: url('../../src/assets/images/uwf.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cfl {
+    background-image: url('../../src/assets/images/cfl.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .rc {
+    background-image: url('../../src/assets/images/rc.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+
+
   @media only screen and (max-width: 690px) {
-  .hero-text-box, .issues-text-box {
+  .hero-text-box, .issues-text-box, .bio-text-box {
     max-width: 100vw;
     border-radius: 0px;
     min-height: 0vh;
@@ -327,10 +472,18 @@
   }
   .issues-text-box {
     font-size: 1.5em;
+    text-align: center;
+    padding-right: 5%;
+  }
+  .bio-text-box {
+    font-size: 2.3vh;
   }
   .flex-item-1 {
     height: 50vh;
     min-height: 200px;
+  }
+  .flex-item-6 {
+    max-height: 90vh;
   }
   iframe {
     max-width: 100vw;
@@ -338,7 +491,6 @@
     padding: 0;
   }
 }
-
 
 #slideshow {
   text-align: center;
@@ -348,7 +500,7 @@
 .landscape {
   width: 100%;
   height: auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 .carousel-1 {
   /*position: absolute;*/
