@@ -121,24 +121,43 @@
 
     <div class="endorsements"></div>
    
-    <carousel id="slideshow" :per-page="1">
+    <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true" :navigationEnabled="true" :pagination-position="top">  
       <!-- https://github.com/ssense/vue-carousel -->
-      <slide class="landscape">
-        
-          <img src="../../src/assets/images/hero-image.png" alt="Italian Trulli" style='height: 100%; width: auto; object-fit: contain'>
-
-  
-      </slide>
       <slide>
-        Slide 2
-      </slide>
-      <slide>
-        Slide 2
-      </slide>
-      <slide>
-        Slide 2
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Italian Trulli">
       </slide>
 
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor11.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor30.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Italian Trulli">
+      </slide>
 
 
     </carousel>
@@ -322,12 +341,14 @@
 
 
 #slideshow {
-  height: 800px;
+  text-align: center;
+
 }
 
 .landscape {
-    max-height: 1000px;
-    width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
 }
 .carousel-1 {
   /*position: absolute;*/
