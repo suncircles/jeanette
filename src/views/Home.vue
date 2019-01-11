@@ -112,12 +112,14 @@
          </div>
         <div class="flex-item-6">
           <div class="bio-text-box">
+            <br><br>
             <ul>
               <li>Led the 34-day hunger strike that forced Rahm Emanuel to keep Dyett High School open</li></br>
               <li>Took on U of C administrators, standing with the youth organizers to win a new adult trauma center for the south side</li></br>
               <li>Fighting to bring a Community Benefits Agreement Ordinance to stop displacement from the area around the Obama Center—so that working  families can find housing they can afford and get jobs in our community.</li>
             </ul>
             <p>Jeanette is the <strong>only</strong> candidate with a track record of taking on Rahm Emanuel and winning. As alderman, she will stand up to greedy developers and special interests and fight every day for the dignity and respect that we deserve.</p>
+            <br>
           </div>
         </div>
     </div>
@@ -132,7 +134,46 @@
       <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
     </div>
 
-    <div class="endorsement-text">Endorsed by:</div>
+    <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true" :navigationEnabled="true" :pagination-position="top">  
+      <!-- https://github.com/ssense/vue-carousel -->
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor11.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor30.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Italian Trulli">
+      </slide>
+    </carousel>
+
+    <div class="endorsement-text"><br>Endorsed by:</div>
     <div class="endorsements">
       <div class="endorsement ctu"></div>
       <div class="endorsement seiu"></div>
@@ -141,6 +182,7 @@
       <div class="endorsement rc"></div>
     </div>
    
+
   </div>
 </template>
 
@@ -450,8 +492,19 @@
   }
 }
 
-/* Other media query for bio-text-box, maybe:
-padding-bottom: 5%; */
+#slideshow {
+  text-align: center;
+
+}
+
+.landscape {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+}
+.carousel-1 {
+  /*position: absolute;*/
+}
 
 </style>
 

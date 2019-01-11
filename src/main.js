@@ -1,8 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
+
 import vueSmoothScroll from 'vue2-smooth-scroll'
 Vue.use(vueSmoothScroll);
+
 
 
 // fontawesome icon stuff
