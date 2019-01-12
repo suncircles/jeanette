@@ -128,6 +128,12 @@
         </div>
     </div>
 
+    <div class="nyt-container">
+      <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
+        <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
+      </a>
+    </div>
+
     <div id="get-involved" class="get-involved">
       <div class="get-involved-text-1"><h2>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
 
@@ -141,39 +147,59 @@
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
       <!-- https://github.com/ssense/vue-carousel -->
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/bloodpressure.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor11.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/dyet.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor11.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor30.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Jeanette for 20th">
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Italian Trulli">
+        <img class="landscape" src="../../src/assets/images/for_web/dyett_group.jpg" alt="Jeanette for 20th">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Jeanette for 20th">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor30.jpg" alt="Jeanette for 20th">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyett_night2.jpg" alt="Jeanette for 20th">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Jeanette for 20th">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyett2.jpg" alt="Jeanette for 20th">
       </slide>
     </carousel>
 
@@ -548,6 +574,17 @@
 }
 .carousel-1 {
   /*position: absolute;*/
+}
+
+.nyt-container {
+  text-align: center;
+  
+}
+.nyt-video {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+
 }
 
 </style>
