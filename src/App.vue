@@ -42,6 +42,7 @@
 </template>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -83,6 +84,7 @@ body {
     flex-direction: column;
     width: 100vw;
     position: fixed;
+    z-index: 200;
 }
 
 .socmedia {
