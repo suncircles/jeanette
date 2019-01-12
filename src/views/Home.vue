@@ -249,7 +249,7 @@
     height: 60vh;
     min-width: 280px;
     min-height: 400px;
-    background-image: url('../../src/assets/images/hero-image.png');
+    background-image: url('../../src/assets/images/hero-image2.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -327,7 +327,7 @@
     height: 50vh;
     min-width: 300px;
     min-height: 300px;
-    background-image: url('../../src/assets/images/meet.png');
+    background-image: url('../../src/assets/images/JTaylorKid.jpg');
     background-size: cover;
     flex-grow: 3;
   }
@@ -376,7 +376,7 @@
   .flex-item-5 {
     height: 50vh;
     min-width: 300px;
-    background-image: url('../../src/assets/images/bio2.png');
+    background-image: url('../../src/assets/images/bio2.jpg');
     background-size: cover;
     background-position: center;
     flex-grow: 1;
