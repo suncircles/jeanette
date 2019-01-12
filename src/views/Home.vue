@@ -7,8 +7,8 @@
         <div class="hero-text-box">
           <div class="hero-text-1"><h1>Help elect a community organizer and Dyett hunger striker on February 26, 2019!</h1></div>
           <div class="hero-text-vote">
-            <h3>Find your polling station and cast your vote for Jeanette Taylor:</h3>
-            <a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="vote-button">Vote</button></a>
+            <h2>Find your polling station and cast your vote for Jeanette Taylor:</h2>
+            <a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="btn vote-button">Vote</button></a>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
           <div class="issues-text-box">
-            <p>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</p>
+            <h2>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</h2>
           </div>
          </div>
         <div class="flex-item flex-item-4"></div>
@@ -135,13 +135,13 @@
     </div>
 
     <div id="get-involved" class="get-involved">
-      <div class="get-involved-text-1"><p>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</p></div>
+      <div class="get-involved-text-1"><h2>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
 
-      <div><button class="phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
+      <div><button class="btn phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
 
-      <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="donate-button">Donate</button></a></div>
+      <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="btn donate-button">Donate</button></a></div>
 
-      <div class="get-involved-text-2"><p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></p></div>
+      <div class="get-involved-text-2"><h2>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></h2></div>
     </div>
 
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
@@ -217,6 +217,12 @@
 </template>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+  h2, li, p, h1, h2, .btn {
+    font-family: 'Lato', sans-serif;
+  }
 
   body, html {
       margin: 0;
@@ -335,7 +341,6 @@
     align-items: center;
     padding-left: 5%;
     text-align: center;
-    font-size: 2em;
   }
 
   /* ICONS */
@@ -398,7 +403,7 @@
     color: white;
     padding: 1%;
     text-align: left;
-    font-size: 2vh;
+    /* font-size: 2vh; */
     display: flex;
     flex-direction: column;
   }
@@ -429,12 +434,12 @@
  }
 
  .get-involved-text-1, .get-involved-text-2 {
-   font-size: 2rem;
+   /* font-size: 2rem; */
    text-align: center;
  }
 
  .phone-button, .donate-button {
-   width: 100vw;
+   width:60vw;
    font-size: 3vh;
    color: white;
    border-radius: 50px;
@@ -453,6 +458,12 @@
 
  .phone-button:focus, .donate-button:focus {
    outline: 0;
+ }
+
+ /* CAROUSEL */
+
+ #slideshow {
+   z-index: 1;
  }
 
  /* ENDORSEMENTS */
