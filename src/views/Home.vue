@@ -149,7 +149,15 @@
       </slide>
 
       <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/bloodpressure.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyet.jpg" alt="Italian Trulli">
       </slide>
 
       <slide>
@@ -165,6 +173,10 @@
       </slide>
 
       <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyett_group.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Italian Trulli">
       </slide>
 
@@ -173,7 +185,15 @@
       </slide>
 
       <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyett_night2.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Italian Trulli">
+      </slide>
+
+      <slide>
+        <img class="landscape" src="../../src/assets/images/for_web/dyett2.jpg" alt="Italian Trulli">
       </slide>
     </carousel>
 
