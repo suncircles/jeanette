@@ -128,12 +128,6 @@
         </div>
     </div>
 
-    <div class="nyt-container">
-      <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
-        <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
-      </a>
-    </div>
-
     <div id="get-involved" class="get-involved">
       <div class="get-involved-text-1"><h2>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
 
@@ -142,6 +136,12 @@
       <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="btn donate-button">Donate</button></a></div>
 
       <div class="get-involved-text-2"><h2>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></h2></div>
+    </div>
+
+    <div id="media" class="nyt-container">
+      <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
+        <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
+      </a>
     </div>
 
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
@@ -465,6 +465,10 @@
  #slideshow {
    z-index: 1;
  }
+
+ /* NYT VIDEO */
+
+
 
  /* ENDORSEMENTS */
 
