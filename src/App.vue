@@ -25,6 +25,9 @@
                     <li>
                         <a href="#get-involved" v-smooth-scroll="{ duration: 1000, offset: -120 }" class="nav-links">Get Involved</a>
                     </li>
+                    <li>
+                        <a href="#media" v-smooth-scroll="{ duration: 1000, offset: -120 }" class="nav-links">Media</a>
+                    </li>
                 </ul>
         </nav>
         <div class="socmedia">
