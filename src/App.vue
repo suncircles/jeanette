@@ -35,7 +35,7 @@
                                     <router-link to="/issues" class="nav-links">Issues</router-link>
                                 </li>
                                 <li>
-                                    <router-link to="/issues" class="nav-links">Unmatched Leadership</router-link>
+                                    <router-link to="/leadership" class="nav-links">Unmatched Leadership</router-link>
                                 </li>
                                 <li>
                                     <router-link to="/endorsements" class="nav-links">Endorsements</router-link>

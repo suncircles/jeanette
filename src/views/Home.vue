@@ -280,23 +280,6 @@
    outline: 0;
  }
 
- /* CAROUSEL */
-
- #slideshow {
-   z-index: 1;
- }
-
- /* NYT VIDEO */
-
-
-
- /* ENDORSEMENTS */
-
- 
-
-
-
-
   @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box, .bio-text-box {
     max-width: 100vw;
@@ -329,31 +312,6 @@
     max-height: 40vh;
     padding: 0;
   }
-}
-
-#slideshow {
-  text-align: center;
-
-}
-
-.landscape {
-  width: 100%;
-  height: auto;
-  max-width: 1000px;
-}
-.carousel-1 {
-  /*position: absolute;*/
-}
-
-.nyt-container {
-  text-align: center;
-  
-}
-.nyt-video {
-  width: 100%;
-  height: auto;
-  max-width: 1000px;
-
 }
 
 </style>
