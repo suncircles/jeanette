@@ -13,90 +13,6 @@
         </div>
       </div>
     </div>
-
-    <div id="bio" class="quote"><h2>Jeanette M. Taylor's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</h2></div>
-
-    <div class="flex-container-3">
-        <div class="flex-item-5">
-         </div>
-        <div class="flex-item-6">
-          <div class="bio-text-box">
-            <br><br>
-            <ul>
-              <li>Led the 34-day hunger strike that forced Rahm Emanuel to keep Dyett High School open</li></br>
-              <li>Took on U of C administrators, standing with the youth organizers to win a new adult trauma center for the south side</li></br>
-              <li>Fighting to bring a Community Benefits Agreement Ordinance to stop displacement from the area around the Obama Center—so that working  families can find housing they can afford and get jobs in our community.</li>
-            </ul>
-            <p>Jeanette is the <strong>only</strong> candidate with a track record of taking on Rahm Emanuel and winning. As alderman, she will stand up to greedy developers and special interests and fight every day for the dignity and respect that we deserve.</p>
-            <br>
-          </div>
-        </div>
-    </div>
-
-    <div id="media" class="nyt-container">
-      <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
-        <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
-      </a>
-    </div>
-
-    <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
-      <!-- https://github.com/ssense/vue-carousel -->
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor01.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/bloodpressure.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor10.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/dyet.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor11.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/dyett_group.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor24.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor30.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/dyett_night2.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor35.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/dyett2.jpg" alt="Jeanette for 20th">
-      </slide>
-    </carousel>
    
   </div>
 </template>
@@ -214,8 +130,6 @@
     flex-grow: 1;
     padding-right: 2%;
   }
-
- /* GET INVOLVED */
 
   @media only screen and (max-width: 690px) {
   .hero-text-box, .issues-text-box {

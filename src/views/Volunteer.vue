@@ -1,33 +1,53 @@
 <template>
   <div class="volunteer">
 
-      <div id="get-involved" class="get-involved">
-      <div class="get-involved-text-1"><h2>We canvas Saturdays from 9:30 a.m.–3:30 p.m. and Sundays from 2–5 p.m.</h2></div>
+      <div class="get-involved-text-1">
 
-      <div><button class="btn phone-button"><p>Door-knock or phonebank for Jeanette</p></button></div><br/>
+        <p>Jeanette Taylor knows what it’s like to have the odds stacked against her.</p>
+        
+         <p>She's running a people-powered campaign for the dignity and respect our community deserves. Every volunteer matters! Sign up today to knock doors, make calls, or organize a house party:</p>
 
-      <div><a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank"><button class="btn donate-button">Donate</button></a></div>
+      </div>
 
-      <div class="get-involved-text-2"><h2>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.</a></h2></div>
-    </div>
+      <div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4KyQMDEucIh0xcgQU9Yg9xt-0JiKjoZiYagEsxdPYy6-F-g/viewform" target="_blank">
+        <button class="btn volunteer-button">Volunteer
+        </button>
+        </a>
+      </div>
+      
+      <br/>
+
+      <div>
+        <a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank">
+        <button class="btn donate-button">Donate
+        </button>
+        </a>
+      </div>
+
+      <div class="get-involved-text-2">
+        <p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.
+        </a></p>
+      </div>
 
   </div>
 </template>
 
 <style>
 
-.get-involved {
+.volunteer {
    display: flex;
    flex-direction: column;
    align-items: center;
  }
 
  .get-involved-text-1, .get-involved-text-2 {
-   /* font-size: 2rem; */
+   max-width: 80vw;
+   font-size: 1.5rem;
    text-align: center;
  }
 
- .phone-button, .donate-button {
+ .volunteer-button, .donate-button {
    width:60vw;
    font-size: 3vh;
    color: white;
@@ -36,13 +56,17 @@
  }
 
  .donate-button {
-   height: 10vh;
+   height: 15vh;
    background-color: #e90000;
+   margin-bottom: 10%;
+   margin-top: 5%
  }
 
- .phone-button {
-   min-height: 10vh; 
+ .volunteer-button {
+   min-height: 15vh; 
    background-color: #044696;
+   margin-top: 10%;
+   margin-bottom: 5%;
  }
 
  .phone-button:focus, .donate-button:focus {

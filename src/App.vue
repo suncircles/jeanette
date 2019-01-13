@@ -49,10 +49,10 @@
                         <div v-if="showGetInvolvedDropdown">
                             <ul>
                                 <li>
-                                    <router-link to="/meet" class="nav-links">Volunteer</router-link>
+                                    <router-link to="/volunteer" class="nav-links">Volunteer</router-link>
                                 </li>
                                 <li>
-                                    <router-link to="/issues" class="nav-links">Donate</router-link>
+                                    <router-link to="/donate" class="nav-links">Donate</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -60,7 +60,7 @@
 
 
                     <li>
-                        <router-link to="/getinvolved" class="nav-links">Voting Information</router-link>
+                        <router-link to="/voting" class="nav-links">Voting Information</router-link>
                     </li>
                     <li>
                         <router-link to="/donate" class="nav-links">Donate</router-link>
