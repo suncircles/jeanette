@@ -5,11 +5,9 @@
       <div class="flex-item flex-item-1"></div>
       <div class="flex-item flex-item-2">
         <div class="hero-text-box">
-          <div class="hero-text-1"><h1>Help elect a community organizer and Dyett hunger striker on February 26, 2019!</h1></div>
-          <div class="hero-text-vote">
-            <h2>Find your polling station and cast your vote for Jeanette Taylor:</h2>
-            <a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="btn vote-button">Vote</button></a>
-          </div>
+          <div class="hero-text-1"><p>Proven leadership. Unmatched sacrifice. Send a Dyett Hunger Striker to City Hall.</p></div>
+          <div class="hero-buttons"><a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="hero-donate-button">Donate</button></a>
+         <a href="https://chicagoelections.com/en/your-voter-information.html" target="_blank"><button class="hero-vol-button">Volunteer</button></button></a></div>
         </div>
       </div>
     </div>
@@ -40,31 +38,36 @@
 
   .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    background-color: #ede8e8;
-    padding-top: 150px;
-  }
-
-  .flex-item-1 {
-    height: 60vh;
-    min-width: 280px;
-    min-height: 400px;
-    background-image: url('../../src/assets/images/hero-image2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    flex-grow: 2;
+    background-image: url('../../src/assets/images/hero.png');
+    height: 80vh;
+    min-width: 500px;
+    min-height: 300px;
+    background-size: cover;
+    background-position:center;
   }
 
   .flex-item-2 {
+    border: 10px solid pink;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 280px;
+    min-height: 400px;
+    /* flex-grow: 10; */
+  }
+
+  .flex-item-1 {
+    border: 10px solid pink;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 
   .hero-text-box {
+    border: 10px solid pink;
     max-width: 40vw;
     min-height: 30vh;
     background-color: #044696;
@@ -72,7 +75,8 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    font-size: 1.5rem;
   }
 
   .hero-text-1 {
@@ -80,29 +84,27 @@
     text-align: center;
   }
 
-  .hero-text-vote {
+  .hero-buttons {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    text-align: center;
     align-items: center;
-    /* background-color: ; */
-    border-radius: 0 0 25px 25px;
   }
 
-  .hero-text-vote a {
+  .hero-buttons a {
     padding-bottom: 5%;
+    font-size: 2.5rem;
   }
 
-  .vote-button {
-    width: 20vw;
+  .hero-donate-button, .hero-vol-button {
+    width: 25vw;
     height: 5vh;
-    color: white;
     background-color: #e90000;
     border-radius: 25px;
     border: none;
-    font-size: 4vh;
+    font-size: 1.5rem;
+    color: white;
   }
+
 
   /* BIO */
 
@@ -137,14 +139,11 @@
     border-radius: 0px;
     min-height: 0vh;
   }
-  .hero-text-box h1 {
-    font-size: 1.5em;
-  }
-  .vote-button {
-    width: 50vw;
+  .hero-buttons {
+    flex-direction: row;
   }
   .flex-item-1 {
-    height: 50vh;
+    height: 42vh;
     min-height: 200px;
   }
   .flex-item-6 {
