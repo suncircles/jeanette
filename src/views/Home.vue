@@ -225,26 +225,6 @@
     padding-right: 2%;
   }
 
-  .bio-text-box ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bio-text-box {
-    max-width: 600px;
-    max-height: 90vh;
-    color: white;
-    padding: 1%;
-    text-align: left;
-    /* font-size: 2vh; */
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bio-text-box p {
-    padding: 1rem;
-  }
-
  /* GET INVOLVED */
 
  .get-involved {
@@ -281,7 +261,7 @@
  }
 
   @media only screen and (max-width: 690px) {
-  .hero-text-box, .issues-text-box, .bio-text-box {
+  .hero-text-box, .issues-text-box {
     max-width: 100vw;
     border-radius: 0px;
     min-height: 0vh;
@@ -296,9 +276,6 @@
     font-size: 1.5em;
     text-align: center;
     padding-right: 5%;
-  }
-  .bio-text-box {
-    font-size: 2.3vh;
   }
   .flex-item-1 {
     height: 50vh;

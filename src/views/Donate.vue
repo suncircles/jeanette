@@ -1,7 +1,7 @@
 <template>
-  <div class="get-involved">
+  <div class="donate">
 
-      <h1>This is the Get Involved page will list the events mockup and a donate button.</h1>
+      <h1>Donate</h1>
 
   </div>
 </template>
@@ -16,7 +16,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'getinvolved',
+  name: 'donate',
   components: {
     HelloWorld
   }

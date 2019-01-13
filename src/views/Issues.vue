@@ -121,7 +121,7 @@
     height: 50vh;
     min-width: 300px;
     min-height: 300px;
-    background-image: url('../../src/assets/images/JTaylorKid.jpg');
+    background-image: url('../../src/assets/images/JTaylorKid.png');
     background-size: cover;
     flex-grow: 3;
   }
