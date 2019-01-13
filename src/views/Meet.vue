@@ -29,10 +29,6 @@
 
 <style>
 
-.meet {
-  padding-top: 10%;
-}
-
 .bio-quote {
     text-align: center;
     font-size: 2vmin;
@@ -52,7 +48,7 @@
   }
 
   .bio-item-2 {
-    height: 50vh;
+    height: 55vh;
     min-width: 300px;
     min-height: 300px;
     background-image: url('../../src/assets/images/JTaylorKid.png');
@@ -80,9 +76,6 @@
   .bio-item-2 {
     height: 55vh;
   }
-  .meet {
-  padding-top: 20%;
-}
 }
 
 </style>

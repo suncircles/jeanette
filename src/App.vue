@@ -115,7 +115,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    position: fixed;
     z-index: 200;
 }
 
