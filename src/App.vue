@@ -12,15 +12,6 @@
                 <!-- <a href="#" class="logo">logo</a> -->
                 <router-link to="/"><img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px"></router-link>
 
-                <div class="socmedia">
-                    <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
-                        <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
-                    </a>
-                    <a href="https://twitter.com/J1Ramann" target="_blank">
-                        <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
-                    </a>
-                </div>
-
 
                 <ul class="main-nav" id="js-menu">
                     
@@ -64,6 +55,18 @@
                     </li>
                     <li>
                         <router-link to="/donate" class="nav-links">Donate</router-link>
+                    </li>
+
+                    <li>
+                        
+                        <div class="socmedia">
+                            <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
+                                <font-awesome-icon :icon="['fab', 'facebook']" size="1x" />
+                            </a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://twitter.com/J1Ramann" target="_blank">
+                                <font-awesome-icon :icon="['fab', 'twitter']" size="1x" /> 
+                            </a>
+                        </div>
                     </li>
                 </ul>
         </nav>
@@ -119,11 +122,12 @@ body {
 }
 
 .socmedia {
-    margin-left: 20px;
-    padding-top: 10px;
+    margin-left: 10px;
+    /*padding-top: 10px;*/
     display: flex;
-    justify-content: space-evenly;
-    width: 100px;
+    justify-content: center;
+    /*width: 100px;*/
+    white-space: 5px;
 }
 
 .dropdown {
