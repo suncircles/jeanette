@@ -1,6 +1,9 @@
 <template>
   <div class="volunteer">
 
+     
+        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Jeanette for 20th">
+
       <div class="get-involved-text-1">
 
         <p>Jeanette Taylor knows what it’s like to have the odds stacked against her.</p>

@@ -15,10 +15,6 @@
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor07.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
         <img class="landscape" src="../../src/assets/images/for_web/bloodpressure.jpg" alt="Jeanette for 20th">
       </slide>
 
