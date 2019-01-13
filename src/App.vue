@@ -3,41 +3,70 @@
   <div id="app">
     <div class="navcontainer">
         <nav class="navbar">
+
                 <span class="navbar-toggle" id="js-navbar-toggle">
                       <!-- <i class="fas fa-bars"></i> -->
                       <font-awesome-icon icon="bars" />
-
                 </span>
+
                 <!-- <a href="#" class="logo">logo</a> -->
-                <img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px">
+                <router-link to="/"><img src="./assets/images/logo.png" class="logo" alt="Jeanette 20th Ward" width="131px" height="72px"></router-link>
+
+                <div class="socmedia">
+                    <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
+                        <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
+                    </a>
+                    <a href="https://twitter.com/J1Ramann" target="_blank">
+                        <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
+                    </a>
+                </div>
+
 
                 <ul class="main-nav" id="js-menu">
                     
                     <li>
-                        <a href="#home" v-smooth-scroll="{ duration: 1000 }" class="nav-links">Home</a>
+                        <a href="#" v-on:click.prevent="showAboutDropdown=!showAboutDropdown" class="nav-links">About</a>
+                        <div v-if="showAboutDropdown">
+                            <ul>
+                                <li>
+                                    <router-link to="/meet" >Meet</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/issues" class="nav-links">Issues</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/issues" class="nav-links">Unmatched Leadership</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/endorsements" class="nav-links">Endorsements</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" v-on:click.prevent="showGetInvolvedDropdown=!showGetInvolvedDropdown" class="nav-links">Get Involved</a>
+                        <div v-if="showGetInvolvedDropdown">
+                            <ul>
+                                <li>
+                                    <router-link to="/meet" class="nav-links">Volunteer</router-link>
+                                </li>
+                                <li>
+                                    <router-link to="/issues" class="nav-links">Donate</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <router-link to="/getinvolved" class="nav-links">Voting Information</router-link>
                     </li>
                     <li>
-                        <a href="#issues" v-smooth-scroll="{ duration: 1000, offset: -130 }" class="nav-links">Issues</a>
-                    </li>
-                    <li>
-                        <a href="#bio" v-smooth-scroll="{ duration: 1000, offset: -150 }" class="nav-links">Meet Jeanette</a>
-                    </li>
-                    <li>
-                        <a href="#get-involved" v-smooth-scroll="{ duration: 1000, offset: -120 }" class="nav-links">Get Involved</a>
-                    </li>
-                    <li>
-                        <a href="#media" v-smooth-scroll="{ duration: 1000, offset: -120 }" class="nav-links">Media</a>
+                        <router-link to="/donate" class="nav-links">Donate</router-link>
                     </li>
                 </ul>
         </nav>
-        <div class="socmedia">
-          <a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
-            <font-awesome-icon :icon="['fab', 'facebook']" size="2x" />
-          </a>
-          <a href="https://twitter.com/J1Ramann" target="_blank">
-            <font-awesome-icon :icon="['fab', 'twitter']" size="2x" /> 
-          </a>
-        </div>
       </div>  
 
       <router-view/>
@@ -81,7 +110,7 @@ body {
     /* padding-bottom: 10px; */
 }
 .navcontainer {
-    background-color: #ede8e8;
+    background-color: white;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -98,6 +127,10 @@ body {
     width: 100px;
 }
 
+.dropdown {
+    list-style: none;
+}
+
 
 
 .main-nav {
@@ -107,6 +140,11 @@ body {
 .logo {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
 }
 
 .main-nav li {
@@ -181,6 +219,8 @@ body {
 export default {
   data: function() {
     return {
+        showAboutDropdown: false,
+        showGetInvolvedDropdown: false
     };
   },
   mounted() {
