@@ -24,12 +24,13 @@
 <style>
 
   .vote-text {
+    border: 10px solid mistyrose;
     display: flex;
     height: 25vh;
     width: 100vw;
     background-color: #044696;
     color: white;
-    font-size: 5vmin;
+    font-size: 7vmin;
     justify-content: center;
     align-items: center;
   }
@@ -48,7 +49,7 @@
     width: 60vw;
     height: 10vh;
     border-radius: 25px;
-    font-size: 2.5vw;
+    font-size: 4.5vmin;
     cursor: pointer;
   }
 
