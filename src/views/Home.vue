@@ -39,7 +39,8 @@
     background-image: url('../../src/assets/images/hero.png');
     height: 80vh;
     background-size: cover;
-    background-position:center;
+    background-position: top;
+    background-repeat: no-repeat;
   }
   
   .flex-item-1 {
