@@ -119,8 +119,9 @@
     flex-direction: column;
 }
 
-h2 {
+h3 {
     text-align: center;
+    padding: 1%;
 }
 
 </style>
