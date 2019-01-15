@@ -31,10 +31,6 @@
       </slide>
 
       <slide>
-        <img class="landscape" src="../../src/assets/images/for_web/JTaylor15.jpg" alt="Jeanette for 20th">
-      </slide>
-
-      <slide>
         <img class="landscape" src="../../src/assets/images/for_web/JTaylor22.jpg" alt="Jeanette for 20th">
       </slide>
 
