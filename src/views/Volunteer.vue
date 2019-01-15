@@ -1,39 +1,35 @@
 <template>
   <div class="volunteer">
 
-    <div class="vol-container">
-        <div class="flex-item vol-item-1">
-          <div class="vol-text-box">
-            <p>Jeanette Taylor knows what it’s like to have the odds stacked against her.</p>
-        
-            <p>She's running a people-powered campaign for the dignity and respect our community deserves. Every volunteer matters! Sign up today to knock doors, make calls, or organize a house party:</p>
+    <div class="vol-image"></div>
+
+      <div class="vol-container">
+
+          <div class="vol-text-1">
+            <p>Jeanette Taylor knows what it’s like to have the odds stacked against her. She's running a people-powered campaign for the dignity and respect our community deserves. Every volunteer matters! Sign up today to knock doors, make calls, or organize a house party:</p>
           </div>
-         </div>
-        <div class="flex-item vol-item-2"></div>
-    </div>
 
-  <div class="vol-buttons">
-      <div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4KyQMDEucIh0xcgQU9Yg9xt-0JiKjoZiYagEsxdPYy6-F-g/viewform" target="_blank">
-        <button class="volunteer-button">Volunteer
-        </button>
-        </a>
-      </div>
-      
-      <br/>
+          
+            <div class="vol-button">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4KyQMDEucIh0xcgQU9Yg9xt-0JiKjoZiYagEsxdPYy6-F-g/viewform" target="_blank">
+              <button class="volunteer-button">Volunteer
+              </button>
+              </a>
+            </div> <br/>
 
-      <div>
-        <a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank">
-        <button class="donate-button">Donate
-        </button>
-        </a>
-      </div>
+            <div class="vol-page-don-button">
+              <a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank">
+              <button class="donate-button">Donate
+              </button>
+              </a>
+            </div>
 
-      <div class="vol-text-2">
-        <p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.
-        </a></p>
+            <div class="vol-text-2">
+              <p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.
+              </a></p>
+           </div>
+
       </div>
-    </div>
 
   </div>
 </template>
@@ -42,43 +38,33 @@
 
   .vol-container {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .vol-item-2 {
+  .vol-text-1, .vol-text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 85vw;
+    padding-top: 1.5%;
+    font-size: 1.5rem;
+  }
+
+  .vol-text-2 {
+    align-self: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .vol-image {
     height: 55vh;
-    min-width: 500px;
+    width: 100vw;
     min-height: 300px;
     background-image: url("../../src/assets/images/for_web/JTaylor07.jpg");
     background-size: cover;
     background-position:center;
-    flex-grow: 3;
   }
-
-  .vol-text-box {
-    max-width: 80vw;
-    min-height: 30vh;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-.volunteer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
-
- .vol-text-1, .vol-text-2 {
-   max-width: 80vw;
-   font-size: 1.5rem;
-   text-align: center;
- }
 
  .volunteer-button, .donate-button {
    width:60vw;
@@ -89,23 +75,16 @@
  }
 
  .donate-button {
-   height: 15vh;
+   height: 10vh;
    background-color: #e90000;
-   margin-bottom: 5%;
  }
 
  .volunteer-button {
-   min-height: 15vh; 
+   min-height: 10vh; 
    background-color: #044696;
  }
 
- .vol-buttons {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
-
- .phone-button:focus, .donate-button:focus {
+ .volunteer-button:focus, .donate-button:focus {
    outline: 0;
  }
 
