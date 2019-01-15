@@ -46,6 +46,10 @@
     max-width: 85vw;
   }
 
+  .don-text-box-2 {
+    padding-top: 3%;
+  }
+
   .donate-button-container {
     padding-top: 1.5%;
   }
