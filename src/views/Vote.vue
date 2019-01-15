@@ -24,7 +24,6 @@
 <style>
 
   .vote-text {
-    border: 10px solid mistyrose;
     display: flex;
     height: 25vh;
     width: 100vw;
