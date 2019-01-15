@@ -90,7 +90,7 @@
 
   .hero-donate-button, .hero-vol-button {
     width: 25vw;
-    height: 5vh;
+    height: 6vh;
     background-color: #e90000;
     border-radius: 25px;
     border: none;
@@ -108,11 +108,13 @@
   .flex-container {
     align-items: flex-end;
   }
+
   .hero-text-box {
     max-width: 100vw;
     max-height: 25vh;
     border-radius: 0px;
     min-height: 0vh;
+    font-size: 1.2rem;
   }
   .hero-buttons {
     justify-content: space-evenly;
@@ -120,6 +122,7 @@
   }
   .hero-donate-button, .hero-vol-button {
     width: 40vw;
+    font-size: 1.2rem;
   }
 }
 
