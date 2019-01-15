@@ -49,7 +49,7 @@
 
   .bio-item-2 {
     height: 55vh;
-    min-width: 300px;
+    min-width: 400px;
     min-height: 300px;
     background-image: url('../../src/assets/images/JTaylorKid.png');
     background-size: cover;
@@ -57,7 +57,7 @@
   }
 
   .bio-text-box {
-    max-width: 50vw;
+    max-width: 550px;
     min-height: 30vh;
     color: black;
     display: flex;
@@ -66,7 +66,7 @@
     flex-direction: column;
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 950px) {
   .bio-text-box {
     max-width: 100vw;
     border-radius: 0px;

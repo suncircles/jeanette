@@ -71,7 +71,9 @@
   }
 
   .hero-text-1 {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
   }
 
@@ -82,7 +84,7 @@
   }
 
   .hero-buttons a {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-size: 2.5rem;
   }
 

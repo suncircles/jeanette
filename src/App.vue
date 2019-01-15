@@ -34,7 +34,7 @@
          
 
           <li class="nav-item">
-            <router-link to="/voting" class="nav-link">Voting Information</router-link>
+            <router-link to="/vote" class="nav-link">Voting Information</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/donate" class="nav-link">Donate</router-link>

@@ -12,9 +12,10 @@
         <div class="flex-item vol-item-2"></div>
     </div>
 
+  <div class="vol-buttons">
       <div>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4KyQMDEucIh0xcgQU9Yg9xt-0JiKjoZiYagEsxdPYy6-F-g/viewform" target="_blank">
-        <button class="btn volunteer-button">Volunteer
+        <button class="volunteer-button">Volunteer
         </button>
         </a>
       </div>
@@ -23,7 +24,7 @@
 
       <div>
         <a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank">
-        <button class="btn donate-button">Donate
+        <button class="donate-button">Donate
         </button>
         </a>
       </div>
@@ -32,6 +33,7 @@
         <p>For upcoming panels, parties, and other community events, visit our <a href="https://www.facebook.com/Taylorfor20/">Facebook page.
         </a></p>
       </div>
+    </div>
 
   </div>
 </template>
@@ -90,13 +92,17 @@
    height: 15vh;
    background-color: #e90000;
    margin-bottom: 5%;
-   margin-top: 5%
  }
 
  .volunteer-button {
    min-height: 15vh; 
    background-color: #044696;
-   margin-bottom: 5%;
+ }
+
+ .vol-buttons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
  }
 
  .phone-button:focus, .donate-button:focus {

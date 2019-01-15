@@ -2,7 +2,7 @@
   <div class="leadership">
 
   <div class="videos">
-    <h2>Jeanette Taylor and the Dyett hunger strike in the NYT:</h2>
+    <h3>Jeanette Taylor and the Dyett hunger strike in the NYT:</h3>
     <div class="nyt-container">
       <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
         <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
@@ -10,7 +10,7 @@
     </div>
 
     <div class="mhp-container">
-        <h2>Jeanette Taylor talks about the Dyett hunger strike on Melissa Harris-Perry:</h2>
+        <h3>Jeanette Taylor talks about the Dyett hunger strike on Melissa Harris-Perry:</h3>
         <a href="https://www.msnbc.com/melissa-harris-perry/watch/hunger-strikers-protest-school-closing-520095299586" target="_blank">
         <img class="mhp-video" src="../../src/assets/images/for_web/mhpvideo.png" alt="Jeanette for 20th"  >
       </a>
@@ -18,7 +18,7 @@
 
   </div>
 
-    <h2>Jeanette, the Dyett hunger strike, and more</h2>
+    <h3>Jeanette, the Dyett hunger strike, and more</h3>
 
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
       <!-- https://github.com/ssense/vue-carousel -->
@@ -67,10 +67,10 @@
       </slide>
     </carousel>
 
-    <h2>Read more about Jeanette Taylor's activism:</h2>
+    <h3>Read more about Jeanette Taylor's activism:</h3><br/>
         <ul class="article-list">
-            <li><h3>“How many times have we been played about everything that comes to this community that’s supposed to be for us, that’s not supposed to push us out?”</h3><a href="https://www.citylab.com/equity/2017/11/hope-and-change-collide-on-the-south-side/545243/" target="_blank">from "Hope and Change Collide on the South Side" in Citylab</a></li>
-            <li><h3>"We all know what great schools look like; they're just not a priority in black and brown communities."</h3><a href="https://interactive.wbez.org/generation-school-closings/" target="_blank">from "A Generation of School Closings" on WBEZ</a></li>
+            <li><h5>“How many times have we been played about everything that comes to this community that’s supposed to be for us, that’s not supposed to push us out?”</h5><a href="https://www.citylab.com/equity/2017/11/hope-and-change-collide-on-the-south-side/545243/" target="_blank">from "Hope and Change Collide on the South Side" in Citylab</a></li><br/>
+            <li><h5>"We all know what great schools look like; they're just not a priority in black and brown communities."</h5><a href="https://interactive.wbez.org/generation-school-closings/" target="_blank">from "A Generation of School Closings" on WBEZ</a></li>
         </ul>
 
   </div>
@@ -95,12 +95,16 @@
 .nyt-container {
   text-align: center;
   max-height: 60vh;
-  
 }
+
 .nyt-video, .mhp-video {
   width: 100%;
   max-height: 60vh;
   max-width: 1000px;
+}
+
+.mhp-container {
+  text-align: center;
 }
 
 .videos {
