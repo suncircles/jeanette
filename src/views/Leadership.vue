@@ -1,19 +1,24 @@
 <template>
   <div class="leadership">
 
+  <div class="videos">
+    <h2>Jeanette Taylor and the Dyett hunger strike in the NYT:</h2>
     <div class="nyt-container">
-         <h2>Jeanette Taylor and the Dyett hunger strike in the NYT:</h2>
       <a href="https://www.nytimes.com/video/us/100000003895513/a-hunger-strike-in-chicago.html" target="_blank">
         <img class="nyt-video" src="../../src/assets/images/for_web/NYTVideo.jpg" alt="Jeanette for 20th"  >
       </a>
     </div>
 
     <div class="mhp-container">
-      <h2>Jeanette Taylor talks about the Dyett hunger strike on Melissa Harris-Perry:</h2>
+        <h2>Jeanette Taylor talks about the Dyett hunger strike on Melissa Harris-Perry:</h2>
         <a href="https://www.msnbc.com/melissa-harris-perry/watch/hunger-strikers-protest-school-closing-520095299586" target="_blank">
         <img class="mhp-video" src="../../src/assets/images/for_web/mhpvideo.png" alt="Jeanette for 20th"  >
       </a>
     </div>
+
+  </div>
+
+    <h2>Jeanette, the Dyett hunger strike, and more</h2>
 
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
       <!-- https://github.com/ssense/vue-carousel -->
@@ -88,7 +93,6 @@
 }
 
 .nyt-container {
-  padding-top: 5%;
   text-align: center;
   max-height: 60vh;
   
@@ -99,15 +103,16 @@
   max-width: 1000px;
 }
 
-.mhp-container {
-  padding-bottom: 5%;
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .article-list {
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 h2 {
