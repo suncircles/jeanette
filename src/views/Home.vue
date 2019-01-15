@@ -82,7 +82,7 @@
   }
 
   .hero-buttons a {
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     font-size: 2.5rem;
   }
 
