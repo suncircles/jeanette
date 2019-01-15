@@ -7,6 +7,7 @@ import Volunteer from './views/Volunteer.vue';
 import Endorsements from './views/Endorsements.vue';
 import Leadership from './views/Leadership.vue';
 import Donate from './views/Donate.vue';
+import Vote from './views/Vote.vue';
 
 Vue.use(Router);
 
@@ -18,6 +19,7 @@ export default new Router({
     {path: '/volunteer', name: 'volunteer', component: Volunteer},
     {path: '/endorsements', name: 'endorsements', component: Endorsements},
     {path: '/leadership', name: 'leadership', component: Leadership},
-    {path: '/donate', name: 'donate', component: Donate}
+    {path: '/donate', name: 'donate', component: Donate},
+    {path: '/vote', name: 'vote', component: Vote}
   ]
 });
