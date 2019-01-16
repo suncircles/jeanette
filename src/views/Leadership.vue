@@ -1,6 +1,9 @@
 <template>
   <div class="leadership">
 
+  <div class="leadership-text">
+    <p>Unmatched Leadership</p>
+  </div>
 
   <div style="height: 25px"></div> 
 
@@ -78,7 +81,8 @@
 
 
 
-
+<div class="container">
+  
     <carousel id="slideshow" :per-page="1" :autoplay="true" :autoplayTimeout=3000 :loop="true">  
       <!-- https://github.com/ssense/vue-carousel -->
       <slide>
@@ -129,6 +133,7 @@
 
 
     </carousel>
+</div>
     <div style="height: 25px;" ></div> 
        
 
@@ -177,6 +182,17 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+}
+
+.leadership-text {
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  background-color: #044696;
+  color: white;
+  font-size: 7vmin;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
