@@ -120,6 +120,7 @@
   .hero-buttons {
     justify-content: space-evenly;
     flex-direction: row;
+    padding-bottom: 5%;
   }
   .hero-donate-button, .hero-vol-button {
     width: 40vw;

@@ -1,9 +1,11 @@
 <template>
   <div class="endorsements">
 
+    <div class="endorsement-text">Endorsements</div>
+
+
        <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-    <div class="endorsement-text"><br>Endorsed by:</div>
 
     <div class="endorsements-container">
       <div class="endorsement ctu"></div>
@@ -25,7 +27,7 @@
  .video {
     display: flex;
     justify-content: center;
-    padding-top: 10%;
+    /* padding-top: 3%; */
   }
 
   iframe {
@@ -33,8 +35,15 @@
   }
 
 .endorsement-text {
-   text-align: center;
-   font-size: 4vmin;
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: #044696;
+    color: white;
+    font-size: 7vmin;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid mistyrose; */
  }
 
  .endorsements-container {
