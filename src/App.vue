@@ -37,7 +37,7 @@
             <router-link to="/vote" class="nav-link">Voting Information</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/donate" class="nav-link">Donate</router-link>
+            <router-link to="/donate" class="nav-link"><button class="nav-donate-button">Donate</button></router-link>
           </li>
             
           <li class="nav-item socmedia">
@@ -70,6 +70,18 @@
 .socmedia {
     padding-top: 9px;
 }
+
+.nav-donate-button {
+  background-color: red;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ .nav-donate-button:focus {
+   outline: 0;
+ }
 
 
 
