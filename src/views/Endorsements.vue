@@ -4,7 +4,7 @@
     <div class="endorsement-text">Endorsements</div>
 
 
-       <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+       <div class="video"><iframe width="100%" height="600" src="https://www.youtube.com/embed/kAH4sOvev-M?start=219" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
     <div class="endorsements-container">
