@@ -44,7 +44,7 @@
               &nbsp;<a href="https://www.facebook.com/Taylorfor20/" target="_blank" >
                   <font-awesome-icon :icon="['fab', 'facebook']" size="1x" />
               </a>&nbsp;&nbsp;&nbsp;
-              <a href="https://twitter.com/J1Ramann" target="_blank">
+              <a href="https://twitter.com/taylorfor20th" target="_blank">
                   <font-awesome-icon :icon="['fab', 'twitter']" size="1x" /> </a>
           </li>  
 
