@@ -17,6 +17,7 @@
       <div class="endorsement seiulocal"></div>
       <div class="endorsement afscme"></div>
       <div class="endorsement ccctu"></div>
+      <div class="endorsement pua"></div>
     </div>
 
   </div>
@@ -54,7 +55,7 @@
  }
 
  .endorsement {
-    min-width: 150px;
+    min-width: 200px;
     padding: 5%;
     margin: 2%;
  }
@@ -117,6 +118,13 @@
 
   .ccctu {
     background-image: url('../../src/assets/images/ccctu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .pua {
+    background-image: url('../../src/assets/images/pua.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
