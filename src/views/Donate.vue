@@ -11,7 +11,7 @@
 
         <div class="donate-button-container">
             <a href="https://secure.actblue.com/donate/taylorfor20th" target="_blank">
-            <button class="donate-page-button">Click to Donate
+            <button class="donate-page-button">Donate
             </button>
             </a>
          </div>
