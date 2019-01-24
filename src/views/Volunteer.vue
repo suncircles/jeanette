@@ -1,6 +1,8 @@
 <template>
   <div class="volunteer">
 
+    <div class="vol-text">Volunteer</div>
+
     <div class="vol-image"></div>
 
       <div class="vol-container">
@@ -39,6 +41,17 @@
   .vol-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .vol-text {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: #044696;
+    color: white;
+    font-size: 6vmin;
+    justify-content: center;
     align-items: center;
   }
 
