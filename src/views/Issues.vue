@@ -1,12 +1,12 @@
 <template>
   <div class="issues">
 
-      <div id="issues" class="quote"><h2>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</h2></div>
+      <div id="issues" class="quote"><p>"Change in our community needs to happen <em>with</em> us, not to us." - Jeanette Taylor</p></div>
 
       <div class="flex-container-2">
         <div class="flex-item flex-item-3">
           <div class="issues-text-box">
-            <h2>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</h2>
+            <p>I will fight so that working-class black and brown families can remain in Chicago: the city we built.</p>
           </div>
          </div>
         <div class="flex-item flex-item-4"></div>
@@ -17,7 +17,7 @@
       
         <div class="icon icon-1">
           <font-awesome-icon icon="graduation-cap" style="font-size: 7em;"/>
-          <h2>Quality Public Schools</h2>
+          <p>Quality Public Schools</p>
           <ul>
             <li>Fully fund all public schools</li>
             <li>Establish an elected representative school board for Chicago</li>
@@ -28,7 +28,7 @@
 
         <div class="icon icon-2">
           <font-awesome-icon icon="home" style="font-size: 7em;"/>
-          <h2>Affordable Housing</h2>
+          <p>Affordable Housing</p>
         <ul>
             <li>Mandate affordable housing near the Obama Presidential Center with a CBA Ordinance</li>
             <li>Preserve & expand public housing</li>
@@ -40,7 +40,7 @@
 
         <div class="icon icon-3">
           <font-awesome-icon icon="hand-holding-usd" style="font-size: 7em;"/>
-          <h2>Economic Justice</h2>
+          <p>Economic Justice</p>
         <ul>
             <li>Bring jobs that pay a living wage to the ward</li>
             <li>Direct TIF funds to public needs</li>
@@ -53,7 +53,7 @@
      
         <div class="icon icon-4">
           <font-awesome-icon icon="city" style="font-size: 7em;"/>
-          <h2>Community Safety</h2>
+          <p>Community Safety</p>
         <ul>
             <li>Establish a civilian police accountability council</li>
             <li>Oppose spending $95 million to build a new police academy</li>
@@ -63,7 +63,7 @@
 
         <div class="icon icon-5">
           <font-awesome-icon icon="users" style="font-size: 7em;"/>
-          <h2>Empower Youth & Elders</h2>
+          <p>Empower Youth & Elders</p>
         <ul>
             <li>Fund summer job programs for youth</li>
             <li>Connect youth with mentorship, academic, & vocational resources</li>
@@ -75,7 +75,7 @@
   
         <div class="icon icon-6">
           <font-awesome-icon icon="balance-scale" style="font-size: 7em;"/>
-          <h2>Immigration Justice</h2>
+          <p>Immigration Justice</p>
         <ul>
             <li>Close loopholes in the Welcoming City ordinance</li>
             <li>Provide sanctuary at all schools & public buildings in the ward</li>
@@ -85,7 +85,7 @@
 
         <div class="icon icon-7">
           <font-awesome-icon icon="globe-americas" style="font-size: 7em;"/>
-          <h2>Environmental Leadership</h2>
+          <p>Environmental Leadership</p>
         <ul>
             <li>Make water affordable for all Chicagoans</li>
             <li>Replace lead pipes throughout the ward and city</li>
@@ -101,6 +101,7 @@
 
 .quote {
     text-align: center;
+    font-size: 3.5vmin;
   }
 
   .flex-container-2 {
@@ -131,9 +132,11 @@
     min-height: 30vh;
     color: white;
     border-radius: 25px;
+    font-size: 4vmin;
     display: flex;
     align-items: center;
     padding-left: 5%;
+    padding-top: 2%;
     text-align: center;
   }
 
@@ -153,6 +156,10 @@
     padding: 30px;
   }
 
+  .icon p {
+    font-size: 3.5vmin;
+  }
+
   font-awesome-icon {
     width: 25vw !important;
   }
@@ -165,6 +172,9 @@
     font-size: 1.5em;
     text-align: center;
     padding-right: 5%;
+  }
+  .icon p {
+    font-size: 5vw;
   }
 }
 

@@ -72,7 +72,7 @@
 }
 
 .nav-donate-button {
-  background-color: red;
+  background-color: #e90000;
   border-radius: 50px;
   color: white;
   font-weight: bold;

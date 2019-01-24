@@ -41,10 +41,9 @@
     width: 100vw;
     background-color: #044696;
     color: white;
-    font-size: 7vmin;
+    font-size: 6vmin;
     justify-content: center;
     align-items: center;
-    /* border: 10px solid mistyrose; */
  }
 
  .endorsements-container {
