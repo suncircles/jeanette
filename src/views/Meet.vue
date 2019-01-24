@@ -54,7 +54,7 @@
   }
 
   .bio-item-2 {
-    height: 55vh;
+    height: 60vh;
     min-width: 400px;
     min-height: 300px;
     background-image: url('../../src/assets/images/JTaylorKid.png');
