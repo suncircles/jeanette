@@ -18,6 +18,10 @@
       <div class="endorsement afscme"></div>
       <div class="endorsement ccctu"></div>
       <div class="endorsement pua"></div>
+      <div class="endorsement cccbj"></div>
+      <div class="endorsement cdsa"></div>
+      <div class="endorsement delia"></div>
+      <div class="endorsement liuna"></div>
     </div>
 
   </div>
@@ -124,6 +128,34 @@
 
   .pua {
     background-image: url('../../src/assets/images/pua.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cccbj {
+    background-image: url('../../src/assets/images/cccbj.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cdsa {
+    background-image: url('../../src/assets/images/cdsa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .delia {
+    background-image: url('../../src/assets/images/delia.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .liuna {
+    background-image: url('../../src/assets/images/liuna.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
