@@ -2,7 +2,7 @@
   <div class="donate">
 
      <div class="don-text-box-1">
-            <p>Dyett Hunger Striker Jeanette B. Taylor knows firsthand what it’s like to be priced out of the neighborhood where you grew up. She’s spent her life taking on powerful interests and greedy developers. We can send her to City Hall to fight for us—but we need your support!</p>
+            <p>Dyett Hunger Striker Jeanette Taylor knows firsthand what it’s like to be priced out of the neighborhood where you grew up. She’s spent her life taking on powerful interests and greedy developers. We can send her to City Hall to fight for us—but we need your support!</p>
           </div>
 
       <div class="don-flex-container">

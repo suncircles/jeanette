@@ -1,7 +1,7 @@
 <template>
   <div class="meet">
 
-    <div class="bio-quote"><p>Jeanette M. Taylor's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</p></div>
+    <div class="bio-quote"><p>Jeanette Taylor's record of fighting for our community is <em>unmatched</em>. Her track record of sacrifice is based on her belief that change should happen “with us, not to us.”</p></div>
 
       <div class="bio-container">
         <div class="flex-item bio-item-1">
