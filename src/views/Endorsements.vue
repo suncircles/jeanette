@@ -12,7 +12,7 @@
       <div class="endorsement seiu"></div>
       <div class="endorsement uwf"></div>
       <div class="endorsement cfl"></div>
-      <div class="endorsement rc"></div>
+      <div class="endorsement tpl"></div>
       <div class="endorsement teamsters"></div>
       <div class="endorsement seiulocal"></div>
       <div class="endorsement afscme"></div>
@@ -21,7 +21,9 @@
       <div class="endorsement cccbj"></div>
       <div class="endorsement cdsa"></div>
       <div class="endorsement delia"></div>
-      <div class="endorsement liuna"></div>
+      <div class="endorsement or"></div>
+      <div class="endorsement ina"></div>
+      <div class="endorsement naswil"></div>
     </div>
 
   </div>
@@ -91,8 +93,8 @@
     background-position: center;
   }
 
-  .rc {
-    background-image: url('../../src/assets/images/rc.png');
+  .tpl {
+    background-image: url('../../src/assets/images/tpl.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -156,6 +158,27 @@
 
   .liuna {
     background-image: url('../../src/assets/images/liuna.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .or {
+    background-image: url('../../src/assets/images/or.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .ina {
+    background-image: url('../../src/assets/images/ina.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .naswil {
+    background-image: url('../../src/assets/images/naswil.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
