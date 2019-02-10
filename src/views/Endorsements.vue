@@ -24,6 +24,7 @@
       <div class="endorsement or"></div>
       <div class="endorsement ina"></div>
       <div class="endorsement naswil"></div>
+      <div class="endorsement cg"></div>
     </div>
 
   </div>
@@ -179,6 +180,13 @@
 
   .naswil {
     background-image: url('../../src/assets/images/naswil.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cg {
+    background-image: url('../../src/assets/images/cg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
