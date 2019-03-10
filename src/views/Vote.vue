@@ -1,7 +1,7 @@
 <template>
   <div class="vote">
     <div class="vote-text">
-      <p>Election day is February 26th</p>
+      <p>The runoff election is April 2nd</p>
     </div>
 
   <div class="vote-button-container">
@@ -10,7 +10,7 @@
     </div>
 
     <div class="early-voting-button">
-      <a href="https://chicagoelections.com/en/early-voting.html" target="_blank"><button class="vote-btn">Early Voting</button></a>
+      <a href="https://chicagoelections.com/en/early-voting.html" target="_blank"><button class="vote-btn">Early Voting Starts March 15</button></a>
     </div>
 
     <div class="mail-in-button">
