@@ -25,6 +25,17 @@
       <div class="endorsement ina"></div>
       <div class="endorsement naswil"></div>
       <div class="endorsement cg"></div>
+      <div class="endorsement sonya"></div>
+      <div class="endorsement seiucouncil"></div>
+      <div class="endorsement ufcw881"></div>
+      <div class="endorsement grassroots"></div>
+      <div class="endorsement networkpe"></div>
+      <div class="endorsement atu308"></div>
+      <div class="endorsement driver"></div>
+      <div class="endorsement afscme31"></div>
+      <div class="endorsement teamsters25"></div>
+      
+
     </div>
 
   </div>
@@ -187,6 +198,69 @@
 
   .cg {
     background-image: url('../../src/assets/images/cg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sonya {
+    background-image: url('../../src/assets/images/sonya.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .seiucouncil {
+    background-image: url('../../src/assets/images/seiucouncil.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .ufcw881 {
+    background-image: url('../../src/assets/images/ufcw881.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .grassroots {
+    background-image: url('../../src/assets/images/grassroots.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .networkpe {
+    background-image: url('../../src/assets/images/networkpe.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .atu308 {
+    background-image: url('../../src/assets/images/atu308.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .driver {
+    background-image: url('../../src/assets/images/driver.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .afscme31 {
+    background-image: url('../../src/assets/images/afscme31.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .teamsters25 {
+    background-image: url('../../src/assets/images/teamsters25.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
