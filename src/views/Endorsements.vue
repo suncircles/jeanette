@@ -34,6 +34,7 @@
       <div class="endorsement driver"></div>
       <div class="endorsement afscme31"></div>
       <div class="endorsement teamsters25"></div>
+      <div class="endorsement personalpac"></div>
       
 
     </div>
@@ -261,6 +262,13 @@
 
   .teamsters25 {
     background-image: url('../../src/assets/images/teamsters25.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .personalpac {
+    background-image: url('../../src/assets/images/personalpac.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
